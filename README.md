@@ -1,7 +1,7 @@
 # Protonmail-Gmail-Theme
 My attempt of copying over some of googles styling elements, to make protonmail feel more like home.
 
-![https://raw.githubusercontent.com/ksparakis/Protonmail-Gmail-Theme/master/protonmail-gmail-koko-sample.png]("Sample")
+!["Sample"](https://raw.githubusercontent.com/ksparakis/Protonmail-Gmail-Theme/master/protonmail-gmail-koko-sample.png)
 
 -----
 
