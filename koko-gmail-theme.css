@@ -1,0 +1,313 @@
+/*google like search box*/
+.search-form-fieldset:focus-within{
+	background: #fff;
+	color:#000;
+	border: 1px solid #b9b9b9;
+	box-shadow: 0 1px 1px #b9b9b9;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-moz-transition: background 100ms ease-in,width 100ms ease-out;
+	transition: background 100ms ease-in,width 100ms ease-out;
+}
+
+.search-form-fieldset-input:-moz-placeholder,.search-form-fieldset-input:-ms-input-placeholder,.search-form-fieldset-input::-moz-placeholder,.search-form-fieldset-input::-webkit-input-placeholder {
+ color:#b9b9b9;
+}
+
+.search-form-fieldset-input {
+ -webkit-justify-content:center;
+ -webkit-box-pack:center;
+ -ms-flex-pack:center;
+ justify-content:center;
+ padding:0 0 0 2px;
+ color:000;
+ font-size:14px;
+ border-radius:4px;
+ background:transparent;
+ border:0;
+ -webkit-appearance:none;
+ -moz-appearance:none;
+ appearance:none;
+ min-width:50px
+}
+
+.search-form-fieldset {
+ max-width:100%;
+ height:46px;
+ border-radius:4px;
+ margin-top: -21px;
+ background:#F5f5f5;
+ margin-right:5px;
+}
+
+.searchForm-container {
+ display:-webkit-inline-flex;
+ display:-webkit-inline-box;
+ display:-ms-inline-flexbox;
+ display:inline-flex;
+ position:relative;
+ -webkit-box-sizing:border-box;
+ box-sizing:border-box;
+ height:4px;
+ width:calc(100% - 100px);
+ max-width:720px;
+ margin-left:10px;
+ color:inherit
+}
+
+
+.headerSecured-container {
+ display:block;
+ background:#fff;
+ color:#fff;
+ font-size:12px;
+ position:relative;
+ font-family:sans-serif;
+ opacity:.999;
+ z-index:100
+}
+
+.fa-cog:before,.fa-gear:before {
+ content:"\F013"
+ color:#6f6f6f;
+}
+
+.fa-search-plus:before {
+ content:"\F00E";
+  color:#6F6F6F;
+}
+.fa-search-minus:before {
+ content:"\F010";
+  color:#6F6F6F;
+}
+
+.fa-user:before {
+ content:"\F007";
+ color:#6f6f6f;
+}
+
+.fa-search:before {
+ content:"\F002";
+ color:#6F6F6F;
+}
+
+.fa-cogs:before,.fa-gears:before {
+ content:"\F085";
+ color:#6f6f6f;
+}
+
+.fa-user-md:before {
+ content:"\F0F0";
+ color:#6f6f6f;
+}
+
+.fa-angle-down:before {
+ content:"\F107";
+ color:#6f6f6f;
+}
+
+.fa-life-bouy:before,.fa-life-buoy:before,.fa-life-ring:before,.fa-life-saver:before,.fa-support:before {
+ content:"\F1CD";
+ color:#6f6f6f;
+}
+
+.fa-address-book:before {
+ content:"\F2B9";
+ color:#6f6f6f;
+}
+.fa-address-book-o:before {
+ content:"\F2BA";color:#6f6f6f;
+}
+
+html.protonmail :-moz-placeholder,html.protonmail ::-moz-placeholder {
+ color:#aaaabf
+}
+
+.conversation.read {
+ background:#F4F7F7
+}
+
+.conversation.marked:before {
+ background:linear-gradient(-120deg, #352384, #333447);
+ content:"";
+ display:block;
+ position:absolute;
+ height:100%;
+ width:5px;
+ top:0
+}
+
+.pm_buttons {
+ display:-webkit-inline-flex;
+ display:-webkit-inline-box;
+ display:-ms-inline-flexbox;
+ display:inline-flex;
+ height:33px;
+ margin:0 10px 0 0;
+ position:relative;
+ border-radius:4px;
+ color:#666
+}
+
+.headerSecured-container {
+ display:block;
+ background:#fff;
+ color:#fff;
+ font-size:12px;
+ position:relative;
+ font-family:sans-serif;
+ opacity:.999;
+ z-index:100
+}
+
+.searchForm-advanced-container {
+ position:absolute;
+ left:0;
+ top:0;
+ -webkit-box-shadow:1px 1px 3px rgba(0,0,0,.33),0 0 2px rgba(0,0,0,.33);
+ box-shadow:1px 1px 3px rgba(0,0,0,.33),0 0 2px rgba(0,0,0,.33);
+ z-index:2;
+ border-radius:4px;
+ padding:35px 0 0;
+ right:0
+}
+
+.navigation {
+ -webkit-box-flex:1;
+ -webkit-flex:1;
+ -ms-flex:1;
+ flex:1;
+ background: #fff;
+ -webkit-box-pack:end;
+ -webkit-justify-content:flex-end;
+ -ms-flex-pack:end;
+ justify-content:flex-end;
+ margin:0 10px 0 0;
+ padding:0;
+ height:100%
+}
+
+#ptSidebar {
+ display:-webkit-box;
+ display:-webkit-flex;
+ display:-ms-flexbox;
+ display:flex;
+ -webkit-box-orient:vertical;
+ -webkit-box-direction:normal;
+ -webkit-flex-direction:column;
+ -ms-flex-direction:column;
+ flex-direction:column;
+ -webkit-box-align:stretch;
+ -webkit-align-items:stretch;
+ -ms-flex-align:stretch;
+ align-items:stretch;
+ -webkit-align-content:space-between;
+ -ms-flex-line-pack:justify;
+ align-content:space-between;
+ width:190px;
+ min-width:190px;
+ -webkit-box-sizing:border-box;
+ box-sizing:border-box;
+ overflow:auto;
+ float:left;
+ background:#fff;
+ height:calc(100% - 61px);
+ will-change:transform
+}
+
+.sidebarApp-container .sidebar-btn-compose {
+margin-top: 10px;
+ background:linear-gradient(-120deg, #352384, #333447);
+ border-color:#9397cd;
+ color:#fff
+}
+
+.navigationItem-title {
+ overflow:hidden;
+ padding-right:10px
+ color:#333;
+ font-color:#333;
+}
+
+
+/*keep*/
+.searchForm-action-button-advanced, .searchForm-action-button-clear, .searchForm-action-button-toggle {
+    border-radius: 0 4px 4px 0;
+}
+html.protonmail .placeholder-white:-moz-placeholder, html.protonmail .placeholder-white::placeholder{
+	color:#000;
+}
+
+.headerSecured-container.headerDesktop-container{
+ 	border-bottom:.8px solid #ECEFF1;
+}
+
+.headerSecuredDesktop-logo{
+	background: #fff;
+}
+
+.menuLabel-item.active .menuLabel-link, .sidebarApp-item.active .navigationItem-item, .sidebarApp-item.active .sidebarApp-link
+{
+	color:#333;
+}
+
+.sidebarApp-item .navigationItem-item, .sidebarApp-item .sidebarApp-link, .sidebarApp-menu .menuLabel-link
+{
+	color:#6F6F6F;
+}
+
+.navigation-title{
+	display: none;
+}
+
+
+/*google like search box*/
+.search-form-fieldset:focus-within{
+	background: #fff;
+	color:#000;
+	border: 1px solid #b9b9b9;
+	box-shadow: 0 1px 1px #b9b9b9;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-moz-transition: background 100ms ease-in,width 100ms ease-out;
+	transition: background 100ms ease-in,width 100ms ease-out;
+}
+
+.navigation > li{
+max-width:60px;
+}
+
+.navigation > li.active, .navigation > li:hover{
+border-color:#6f6f6f;
+}
+
+.sidebarApp-item .navigationItem-item:hover, .sidebarApp-item .sidebarApp-link:hover, .sidebarApp-menu .menuLabel-link:hover{
+
+color:#333;
+}
+
+.sidebar-btn-back{
+marign-top:10px;
+ background:linear-gradient(-120deg, #352384, #333447);
+}
+
+i{
+color:#333;
+}
+
+.headerSecuredDesktop-logo:before {
+ content:"";
+ height:35px;
+ width:116px;
+ background:url('https://protonmail.com/images/media/logos/protonmail-logo-dark.svg') no-repeat bottom;
+ background-size: contain;
+}
+
+html.protonmail .professional{
+color:transparent;
+z-index:-1;
+}
+
+placeholder-white{
+color:#000
+}
