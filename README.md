@@ -12,6 +12,7 @@ This is still in **BETA** and not completed as of Feb 1, 2019.
 - Fix dropdown search styling
 - Fix Icons
 - ReDo Email Threading
+- Collapsing Side Menu Bar
 
 ## How to install
 Paste Koko-Gmail-theme.css into:
